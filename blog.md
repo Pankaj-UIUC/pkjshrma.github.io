@@ -1,25 +1,14 @@
 ---
 layout: page
-title: Blog
+title: Posts
+eyebrow: Writing
 permalink: /blog/
 ---
+<p class="intro">Long-form notes and in-progress experiments in data science, causal inference, and analytics craft.</p>
 
-Catch up on the latest posts from my work in data science and analytics.
-
-Connect with me on [LinkedIn](https://www.linkedin.com/in/psharma13/) for more updates and professional insights.
-
-<ul class="post-list">
-  {%- for post in site.posts -%}
-  <li>
-    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-    <h3>
-      <a class="post-link" href="{{ post.url | relative_url }}">
-        {{ post.title | escape }}
-      </a>
-    </h3>
-    {%- if post.excerpt -%}
-    <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
-    {%- endif -%}
-  </li>
+<div class="card-grid">
+  {%- assign sorted_posts = site.posts | sort: 'date' | reverse -%}
+  {%- for post in sorted_posts -%}
+    {%- include post-card.html post=post -%}
   {%- endfor -%}
-</ul>
+</div>
