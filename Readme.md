@@ -30,3 +30,17 @@ Run the script with:
 python double_ml_ads_example.py
 ```
 
+## Blog theme customization
+
+The Jekyll site now uses a custom minimal theme with light/dark mode. To tweak
+branding:
+
+- **Name & tagline:** edit `title` and `description` in `_config.yml`.
+- **Accent color or fonts:** adjust the variables at the top of
+  `assets/main.scss`.
+- **Social links:** update the hero links in `_layouts/home.html` and the list in
+  `about.md`.
+- **Navigation:** links live in `_includes/header.html`.
+- **Posts:** add new Markdown files to `_posts/` using the `YYYY-MM-DD-title.md`
+  convention; they will show on the home and Posts pages automatically.
+

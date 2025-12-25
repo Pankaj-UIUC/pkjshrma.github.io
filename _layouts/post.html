@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-header wrapper">
+    <p class="eyebrow">{{ page.date | date: '%b %d, %Y' }}</p>
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.tags %}
+    <div class="tags" aria-label="Tags">
+      {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+    </div>
+    {% endif %}
+  </header>
+
+  <div class="wrapper post-body">
+    <aside class="toc" aria-label="Table of contents">
+      <div class="toc__title">On this page</div>
+      <nav class="toc__list" id="toc"></nav>
+    </aside>
+    <div class="post-content">
+      {{ content }}
+      <div class="post-footer">
+        <a class="inline-link" href="{{ '/blog/' | relative_url }}">← Back to posts</a>
+        <div class="post-nav">
+          {% if page.previous %}
+            <a class="inline-link" href="{{ page.previous.url | relative_url }}">← {{ page.previous.title }}</a>
+          {% endif %}
+          {% if page.next %}
+            <a class="inline-link" href="{{ page.next.url | relative_url }}">{{ page.next.title }} →</a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</article>

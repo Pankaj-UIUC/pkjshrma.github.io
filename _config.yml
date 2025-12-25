@@ -1,10 +1,11 @@
 title: "Pankaj's Blog"
-description: "A sample blog using GitHub Pages"
+description: "Notes on data science, causal inference, and analytics craft."
 theme: minima
 future: true
-
 header_pages:
+  - index.md
   - blog.md
-
+  - about.md
+  - search.md
 plugins:
   - jekyll-feed
