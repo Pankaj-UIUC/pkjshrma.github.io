@@ -1,0 +1,7 @@
+<svg width="120" height="60" viewBox="0 0 120 60" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Amazon logo</title>
+  <desc id="desc">Amazon wordmark with smile arrow underline</desc>
+  <text x="10" y="28" fill="#111111" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="0.5">amazon</text>
+  <path d="M18 36c22 12 55 12 79 1" stroke="#ff9900" stroke-width="4" stroke-linecap="round"/>
+  <path d="M92 36l7 4-3-9" fill="#ff9900"/>
+</svg>

@@ -8,6 +8,7 @@
       <ul class="nav-list">
         <li><a href="{{ '/' | relative_url }}" class="nav-link{% if page.url == '/' %} active{% endif %}">Home</a></li>
         <li><a href="{{ '/blog/' | relative_url }}" class="nav-link{% if page.url contains '/blog' or page.layout == 'post' %} active{% endif %}">Posts</a></li>
+        <li><a href="{{ '/experience/' | relative_url }}" class="nav-link{% if page.url contains '/experience' %} active{% endif %}">Experience</a></li>
         <li><a href="{{ '/about/' | relative_url }}" class="nav-link{% if page.url contains '/about' %} active{% endif %}">About</a></li>
         <li><a href="{{ '/search/' | relative_url }}" class="nav-link{% if page.url contains '/search' %} active{% endif %}">Search</a></li>
       </ul>
