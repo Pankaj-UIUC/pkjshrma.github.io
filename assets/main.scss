@@ -282,6 +282,81 @@ a:focus-visible {
   gap: 1rem;
 }
 
+.muted {
+  color: var(--muted);
+}
+
+
+.experience {
+  margin-top: 2rem;
+}
+
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.experience-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 1.3rem;
+  box-shadow: var(--shadow);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.experience-card__header {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.experience-card__logo {
+  min-width: 56px;
+  min-height: 40px;
+  border-radius: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: color-mix(in srgb, var(--accent) 12%, var(--card));
+  border: 1px solid color-mix(in srgb, var(--accent) 25%, var(--border));
+  padding: 0.4rem 0.75rem;
+  font-weight: 700;
+  color: var(--text);
+  text-align: center;
+}
+
+.experience-card__logo--text {
+  font-size: 0.95rem;
+  line-height: 1.2;
+}
+
+.experience-card__company {
+  font-weight: 700;
+}
+
+.experience-card__meta {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.experience-card__summary {
+  margin: 0;
+  color: var(--text);
+}
+
+.experience-card__highlights {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: var(--muted);
+  display: grid;
+  gap: 0.35rem;
+}
+
 .post-card {
   background: var(--card);
   border: 1px solid var(--border);

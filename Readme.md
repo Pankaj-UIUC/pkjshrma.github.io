@@ -44,3 +44,15 @@ branding:
 - **Posts:** add new Markdown files to `_posts/` using the `YYYY-MM-DD-title.md`
   convention; they will show on the home and Posts pages automatically.
 
+## Local development & builds
+
+Install dependencies and build the site locally with Bundler:
+
+```bash
+bundle install
+bundle exec jekyll build
+```
+
+If you prefer a live-reloading preview, run `bundle exec jekyll serve --livereload`
+and open the reported localhost URL in your browser.
+
