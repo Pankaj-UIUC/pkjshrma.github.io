@@ -13,7 +13,7 @@ permalink: /about/
     <li><a href="https://www.linkedin.com/in/psharma13/" target="_blank" rel="noopener">LinkedIn</a></li>
     <li><a href="https://github.com/Pankaj-UIUC" target="_blank" rel="noopener">GitHub</a></li>
     <li><a href="https://www.deep-ml.com/profile/SASnu4qfo1Q7OpgWlMvmJloUjLg2" target="_blank" rel="noopener">Deep-ML</a></li>
-    <li><a href="mailto:pankajsharma1457@gmail.com" target="_blank" rel="noopener">Gmail</a></li>
+    <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=pankajsharma1457@gmail.com" target="_blank" rel="noopener">Gmail</a></li>
   </ul>
   <p class="eyebrow">Education</p>
   <div class="education">
