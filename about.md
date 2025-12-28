@@ -11,7 +11,22 @@ permalink: /about/
   <p class="eyebrow">Elsewhere</p>
   <ul>
     <li><a href="https://www.linkedin.com/in/psharma13/" target="_blank" rel="noopener">LinkedIn</a></li>
-    <li><a href="https://github.com/pkjsharma13" target="_blank" rel="noopener">GitHub</a></li>
-    <li><a href="https://twitter.com/pkjsharma" target="_blank" rel="noopener">Twitter</a></li>
+    <li><a href="https://github.com/Pankaj-UIUC" target="_blank" rel="noopener">GitHub</a></li>
+    <li><a href="https://www.deep-ml.com/profile/SASnu4qfo1Q7OpgWlMvmJloUjLg2" target="_blank" rel="noopener">Deep-ML</a></li>
+    <li><a href="mailto:pankajsharma1457@gmail.com" target="_blank" rel="noopener">Gmail</a></li>
   </ul>
+  <p class="eyebrow">Education</p>
+  <div class="education">
+    <h3>University of Illinois, Urbana-Champaign · USA</h3>
+    <p><strong>MS in Statistics</strong>, 4.0/4.0</p>
+    <ul>
+      <li>Relevant Coursework: Machine Learning, Applied Regression &amp; Design, Mathematical Statistics, Statistics and Probability, Applied Bayesian Analysis, NLP, Deep Learning</li>
+      <li>Publication: Rational Inattention in Choice Overload: Clustering for Discrete Choices - ASILOMAR conference (2021) <a href="https://ieeexplore.ieee.org/document/9723230" target="_blank" rel="noopener">IEEExplore</a></li>
+    </ul>
+    <h3>Indian Institute of Technology, Roorkee · India</h3>
+    <p><strong>B.Tech in Mechanical Engineering</strong>, 3.8/4.0</p>
+    <ul>
+      <li>Relevant Coursework: Data Structures &amp; Algorithms, Optimization, Numerical Methods, Linear Algebra, Calculus, Hypothesis Testing</li>
+    </ul>
+  </div>
 </div>
