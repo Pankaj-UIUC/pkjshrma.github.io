@@ -1,9 +1,6 @@
-<svg width="120" height="60" viewBox="0 0 120 60" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">ZS Associates logo</title>
-  <desc id="desc">Orange geometric Z and S monogram</desc>
-  <rect x="18" y="12" width="26" height="8" fill="#ef7f1a" rx="2"/>
-  <rect x="38" y="20" width="26" height="8" fill="#ef7f1a" rx="2"/>
-  <rect x="58" y="28" width="26" height="8" fill="#ef7f1a" rx="2"/>
-  <rect x="18" y="40" width="66" height="8" fill="#ef7f1a" rx="2"/>
-  <path d="M78 14h24l-24 32h24" stroke="#ef7f1a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<svg width="120" height="60" viewBox="0 0 120 60" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="zs-title zs-desc">
+  <title id="zs-title">ZS Associates</title>
+  <desc id="zs-desc">ZS Associates logo</desc>
+  <text x="20" y="38" fill="#E87722" font-family="Arial, sans-serif" font-size="32" font-weight="700" letter-spacing="2">ZS</text>
+  <text x="68" y="38" fill="#231F20" font-family="Arial, sans-serif" font-size="16" font-weight="400">ASSOCIATES</text>
 </svg>

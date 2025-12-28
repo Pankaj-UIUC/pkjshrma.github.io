@@ -1,6 +1,6 @@
-<svg width="120" height="60" viewBox="0 0 120 60" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">University of Illinois logo</title>
-  <desc id="desc">Orange block I on navy background</desc>
-  <rect width="120" height="60" rx="10" fill="#13294b"/>
-  <path d="M52 10h16l-1 8h7v10h-7l-1 14h-12l-1-14h-7V18h7l-1-8Z" fill="#e84a27"/>
+<svg width="120" height="60" viewBox="0 0 120 60" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="uiuc-title uiuc-desc">
+  <title id="uiuc-title">University of Illinois Urbana-Champaign</title>
+  <desc id="uiuc-desc">UIUC Block I logo</desc>
+  <rect width="120" height="60" fill="#13294B" rx="4"/>
+  <path d="M 45 15 L 75 15 L 75 20 L 65 20 L 65 40 L 55 40 L 55 20 L 45 20 Z" fill="#E84A27"/>
 </svg>
