@@ -18,7 +18,7 @@ permalink: /experience/
     <article class="experience-card">
       <div class="experience-card__header">
         <div class="experience-card__logo">
-          <img src="{{ '/assets/logos/amazon.svg' | relative_url }}" alt="Amazon" loading="lazy" />
+          <img src="{{ '/assets/logos/amazon.webp' | relative_url }}" alt="Amazon" loading="lazy" />
         </div>
         <div>
           <div class="experience-card__company">Amazon — New York, USA</div>
@@ -36,7 +36,7 @@ permalink: /experience/
     <article class="experience-card">
       <div class="experience-card__header">
         <div class="experience-card__logo">
-          <img src="{{ '/assets/logos/bayer.svg' | relative_url }}" alt="Bayer" loading="lazy" />
+          <img src="{{ '/assets/logos/bayer.png' | relative_url }}" alt="Bayer" loading="lazy" />
         </div>
         <div>
           <div class="experience-card__company">Bayer — Whippany, USA</div>
@@ -54,7 +54,7 @@ permalink: /experience/
     <article class="experience-card">
       <div class="experience-card__header">
         <div class="experience-card__logo">
-          <img src="{{ '/assets/logos/zs.svg' | relative_url }}" alt="ZS Associates" loading="lazy" />
+          <img src="{{ '/assets/logos/zs.png' | relative_url }}" alt="ZS Associates" loading="lazy" />
         </div>
         <div>
           <div class="experience-card__company">ZS Associates — USA & India</div>
@@ -72,7 +72,7 @@ permalink: /experience/
     <article class="experience-card">
       <div class="experience-card__header">
         <div class="experience-card__logo">
-          <img src="{{ '/assets/logos/uiuc.svg' | relative_url }}" alt="Bayer UIUC Innovation Center" loading="lazy" />
+          <img src="{{ '/assets/logos/bayer.png' | relative_url }}" alt="Bayer UIUC Innovation Center" loading="lazy" />
         </div>
         <div>
           <div class="experience-card__company">Bayer — UIUC Innovation Center</div>
