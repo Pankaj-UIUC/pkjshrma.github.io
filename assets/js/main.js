@@ -92,4 +92,43 @@
       renderResults(filtered);
     });
   }
+
+  // Code block copy buttons
+  document.querySelectorAll('pre').forEach((pre) => {
+    const wrapper = document.createElement('div');
+    wrapper.className = 'code-block-wrapper';
+    pre.parentNode.insertBefore(wrapper, pre);
+    wrapper.appendChild(pre);
+
+    const button = document.createElement('button');
+    button.className = 'copy-button';
+    button.setAttribute('aria-label', 'Copy code to clipboard');
+    button.innerHTML = `
+      <svg class="copy-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="5" y="5" width="9" height="9" rx="1" stroke="currentColor" stroke-width="1.5"/>
+        <path d="M3 10.5V3C3 2.44772 3.44772 2 4 2H10.5" stroke="currentColor" stroke-width="1.5"/>
+      </svg>
+      <span class="copy-text">Copy</span>
+    `;
+
+    wrapper.appendChild(button);
+
+    button.addEventListener('click', async () => {
+      const code = pre.querySelector('code') || pre;
+      const text = code.textContent;
+
+      try {
+        await navigator.clipboard.writeText(text);
+        button.classList.add('copied');
+        button.querySelector('.copy-text').textContent = 'Copied!';
+
+        setTimeout(() => {
+          button.classList.remove('copied');
+          button.querySelector('.copy-text').textContent = 'Copy';
+        }, 2000);
+      } catch (err) {
+        console.error('Failed to copy:', err);
+      }
+    });
+  });
 })();

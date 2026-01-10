@@ -384,6 +384,21 @@ a:focus-visible {
   gap: 0.5rem;
   color: var(--muted);
   font-size: 0.95rem;
+  flex-wrap: wrap;
+}
+
+.reading-time {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.reading-time-separator {
+  margin: 0 0.5rem;
+  color: var(--muted);
+  opacity: 0.5;
 }
 
 .tags {
@@ -480,6 +495,67 @@ a:focus-visible {
   background: color-mix(in srgb, var(--accent) 12%, var(--card));
   border-radius: 8px;
   padding: 0.1rem 0.3rem;
+}
+
+.post-content pre code {
+  background: none;
+  padding: 0;
+}
+
+.code-block-wrapper {
+  position: relative;
+  margin: 1.5rem 0;
+}
+
+.code-block-wrapper pre {
+  margin: 0;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  border: 1px solid var(--border);
+}
+
+.copy-button {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.75rem;
+  background: color-mix(in srgb, var(--bg) 90%, transparent);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-family: $font-sans;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  backdrop-filter: blur(8px);
+}
+
+.copy-button:hover {
+  background: var(--card);
+  color: var(--text);
+  border-color: var(--accent);
+}
+
+.copy-button:active {
+  transform: scale(0.95);
+}
+
+.copy-button.copied {
+  background: color-mix(in srgb, var(--accent) 15%, var(--card));
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.copy-icon {
+  flex-shrink: 0;
+}
+
+.copy-text {
+  font-weight: 500;
 }
 
 .post-footer {
@@ -647,6 +723,8 @@ button {
 
   .nav-toggle {
     display: inline-flex;
+    min-height: 44px;
+    min-width: 44px;
   }
 
   .nav-list {
@@ -654,13 +732,54 @@ button {
     align-items: stretch;
   }
 
+  .nav-link {
+    padding: 0.75rem 1rem;
+    min-height: 44px;
+    justify-content: flex-start;
+  }
+
   .theme-toggle {
     width: 100%;
     justify-content: center;
+    min-height: 44px;
+    padding: 0.75rem 1rem;
   }
 
   .header-inner {
     position: relative;
     padding: 0.75rem 0;
+  }
+
+  .pill {
+    padding: 0.65rem 1rem;
+    min-height: 44px;
+    font-size: 0.95rem;
+  }
+
+  .post-card__cta {
+    padding: 0.5rem 0;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .copy-button {
+    min-height: 44px;
+    min-width: 44px;
+    padding: 0.6rem 1rem;
+  }
+
+  .inline-link {
+    padding: 0.5rem 0;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .card-grid {
+    gap: 1.25rem;
+  }
+
+  .post-card {
+    padding: 1.5rem;
   }
 }
